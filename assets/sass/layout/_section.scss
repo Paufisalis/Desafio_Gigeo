@@ -1,0 +1,56 @@
+#perfil{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.perfil__usuario{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.perfil__botonera{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    
+}
+
+.btn{
+    border-radius: 0;
+   margin-right: 10px;
+}
+
+.foto-yuki{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50px;
+    margin-right: 1.5rem;
+}
+
+.yuki-titulo{
+    font-family: $Futura;
+    font-size: $x-l;
+    text-align: center;
+}
+.yuki-subtitulo{
+    font-family: $Futura;
+    font-size: $m;
+    text-align: center;
+}
+
+
+@media(max-width:768px){
+    
+    #perfil{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+}
+
+

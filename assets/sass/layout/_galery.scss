@@ -1,0 +1,51 @@
+.texto-galeria{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+.img-vela,.img-away,.img-city,.img-tale{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+   
+}
+
+#fila-uno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+#fila-dos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+@media(max-width:768px){
+    .texto-galeria{
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .img-vela,.img-away,.img-city,.img-tale{
+        width: 250px;
+        height: 150px;
+        text-align: center;
+    }
+
+    #fila-uno{
+        text-align: center;
+    }
+
+    #fila-dos{
+        text-align: center;
+    }
+}
+
+

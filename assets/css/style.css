@@ -1,0 +1,123 @@
+/* Font Family*/
+/* Font Weight*/
+/* Font Size*/
+/*4.375*/
+/*1.875*/
+/*1.125*/
+/*1rem*/
+/*0.75rem*/
+/* Color*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.iconos-navbar {
+  color: black !important; }
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: black; }
+
+.navbar-subtitle {
+  position: relative;
+  font-size: 12px; }
+
+@media (min-width: 768px) {
+  .menu__navbar {
+    padding: 0.8rem 5rem; }
+
+  .menu__navbar-iconos li {
+    margin: auto 6px; } }
+.foto-header {
+  background-image: url(../img/image-banner.png);
+  width: 100vw;
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  margin-top: 70px; }
+
+#perfil {
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.perfil__usuario {
+  display: flex !important;
+  align-items: center !important; }
+
+.perfil__botonera {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between; }
+
+.btn {
+  border-radius: 0;
+  margin-right: 10px; }
+
+.foto-yuki {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 1.5rem; }
+
+.yuki-titulo {
+  font-family: "Futura-Normal", arial;
+  font-size: 30px;
+  text-align: center; }
+
+.yuki-subtitulo {
+  font-family: "Futura-Normal", arial;
+  font-size: 16px;
+  text-align: center; }
+
+@media (max-width: 768px) {
+  #perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; } }
+.texto-galeria {
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 30px; }
+
+.img-vela, .img-away, .img-city, .img-tale {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 20px; }
+
+#fila-uno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+#fila-dos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+@media (max-width: 768px) {
+  .texto-galeria {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center; }
+
+  .img-vela, .img-away, .img-city, .img-tale {
+    width: 250px;
+    height: 150px;
+    text-align: center; }
+
+  #fila-uno {
+    text-align: center; }
+
+  #fila-dos {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
